@@ -1,4 +1,11 @@
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
 .header {
     font-family: Roboto, sans-serif;
     background-color: #1F2937;
@@ -6,8 +13,8 @@
     flex-direction: column;
 }
 
-.first-section,
-.second-section {
+.section1,
+.section2 {
     display: flex;
     margin-left: 50px;
 }
@@ -47,7 +54,7 @@ a,
 
 h2 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 1000;
     color: #F9FAF8;
     margin-bottom: 0;
 }
@@ -82,3 +89,53 @@ h2 {
     width: 400px;
     gap: 10px;
 }
+
+/* end of the header */
+
+/* 1rst section */
+
+.info {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 800px;
+    margin-left: 200px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    background: white;
+    border: 4px solid #3882F6;
+    height: 150px;
+    width: 75px;
+    flex: 1;
+    margin: 20px;
+    margin-bottom: 5px;
+    border-radius: 16px;
+}
+
+.subtext {
+    display: flex;
+    max-width: 750px;
+    margin-left: 220px;
+    gap: 50px;
+}
+
+.subtext div {
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 7px;
+}
+
+/* end of 1rst section */
+
+/* 2nd section */
